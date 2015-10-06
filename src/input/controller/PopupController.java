@@ -7,6 +7,7 @@ public class PopupController
 {
 	private PopupDisplay myPopups;
 	private Thing myThing;
+	
 	public PopupController()
 	{
 		myPopups = new PopupDisplay();
@@ -75,7 +76,7 @@ public class PopupController
 			}
 			catch (NumberFormatException error)
 			{
-				myPopups.displayResponse("You dun fucked it up!!");
+				myPopups.displayResponse("You dun screwed it up!!");
 			}
 			return isDouble;
 		}
